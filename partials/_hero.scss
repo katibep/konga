@@ -1,0 +1,45 @@
+.hero{
+    .hero-section{
+        padding-top: 12rem;
+        display: flex;
+        gap: 2rem;
+        padding-left: 7rem;
+        .big-image{
+            width: 60%;
+            height: 60vh;
+            .apple{
+             width: 100%;
+             height: 98%;
+             border-radius: 5px;
+            }
+        }
+        .big-image2{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+            width: 27.70%;
+            .one{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    .ankimys{
+        padding-top: 1rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 84%;
+        margin-left: 7rem;
+       .bil{
+        width: 20%;
+        padding: .6rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .bills{
+            width: 87%;
+        }
+       }
+    }
+}

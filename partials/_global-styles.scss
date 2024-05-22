@@ -1,0 +1,12 @@
+//global-styles
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $default-font;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

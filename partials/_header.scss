@@ -1,0 +1,112 @@
+.header{
+    position: fixed;
+    .top-header{
+        padding:.6rem;
+        display: flex;
+        padding-right: 2rem;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey;
+        a{
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .imy{
+                width: 60%;
+            }
+        }
+      
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: $secondary-color;
+        padding: .80rem;
+        padding-left: 3rem;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .image{
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            width: 26%;
+            .logo{
+                width:30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .konga{
+                    width: 90%;
+                }
+            }
+        }
+        .image1{
+            display: flex;
+            input{
+                width: 35vw;
+                padding: .5rem;
+                font-size: 1rem;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius:8px ;
+                border: none;
+            }
+            i{
+                border: 1px solid orange;
+                padding: .7rem;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius:10px ;
+                background-color: orange;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .image2{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            .mark{
+                display: flex;
+                gap: .2rem;
+                cursor: pointer;
+                color: white;
+            }
+            .cart{
+                background-color: $green;
+                color: white;
+                padding: .6rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                border-radius: 5px;
+                span{
+                    border-radius: 3px;
+                    background-color: white;
+                    color: black;
+                    padding: .2rem;
+                }
+            }
+        }
+    }
+    .nav-bar3{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        gap: 3rem;
+        background-color: $primary-color;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        a{
+            text-decoration: none;
+           color: white;
+        }
+        .all{
+            display: flex;
+            align-items: center; 
+        font-size: 1.10rem;
+        font-weight: bold;
+        }
+    }
+}
