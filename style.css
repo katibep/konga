@@ -747,7 +747,7 @@ body {
 }
 @media (max-width: 768px) {
   .form .btn button {
-    padding: 0.3rem 4rem;
+    padding: 0.2rem 4rem;
     border-radius: 5px;
   }
 }
