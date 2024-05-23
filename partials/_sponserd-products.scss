@@ -129,6 +129,11 @@
         border-top-left-radius: 10px;
         margin-bottom: 2rem;
         margin-top: 2rem;
+        .none{
+            @media(max-width:768px){
+                display: none;
+            }
+        }
         
         .ank{
             display: flex;
@@ -138,6 +143,9 @@
                 font-size: 1.50rem;
                 font-weight: bold;
                 margin-left: 1rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                }
             }
         }
         a{
@@ -155,6 +163,10 @@
             border-radius: 5px;
             font-weight: bold;
             margin-right: 3rem;
+            @media(max-width:768px){
+                padding: .3rem;
+                margin-left: 1rem;
+            }
             i{
                 font-weight: bold;
                 font-size: 1.30rem;

@@ -18,11 +18,16 @@
         @media(max-width:768px){
             width: 100%;
             margin-left: 1rem;
+            font-size: 1rem;
+            padding: .7rem;
         }
         a{
             text-decoration: none;
             color: white;
             font-size: 1rem;
+            @media(max-width:768px){
+                font-size: .50rem;
+            }
         }
     }
     .items{
@@ -40,6 +45,7 @@
                 width: 100%;
                 margin-left: 1rem;
                 grid-template-columns: repeat(1,1fr);
+                gap: .50rem;
             }
             .image-cards{
                 display: flex;
@@ -54,7 +60,8 @@
                 .ac{
                     width: 35%;
                     @media(max-width:768px){
-                        width: 40%;
+                        width: 25%;
+                        padding: .6rem;
                     }
                     
                 }

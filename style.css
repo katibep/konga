@@ -227,12 +227,19 @@ body {
   .top-deals .bread-crump {
     width: 100%;
     margin-left: 1rem;
+    font-size: 1rem;
+    padding: 0.7rem;
   }
 }
 .top-deals .bread-crump a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .top-deals .bread-crump a {
+    font-size: 0.5rem;
+  }
 }
 @media (max-width: 768px) {
   .top-deals .items {
@@ -252,6 +259,7 @@ body {
     width: 100%;
     margin-left: 1rem;
     grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
   }
 }
 .top-deals .items .phones .image-cards {
@@ -272,7 +280,8 @@ body {
 }
 @media (max-width: 768px) {
   .top-deals .items .phones .image-cards .ac {
-    width: 40%;
+    width: 25%;
+    padding: 0.6rem;
   }
 }
 .top-deals .items .phones .image-cards .samsung .spoon {
@@ -455,6 +464,11 @@ body {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  .sponserd-products .same .none {
+    display: none;
+  }
+}
 .sponserd-products .same .ank {
   display: flex;
   gap: 3rem;
@@ -464,6 +478,11 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin-left: 1rem;
+}
+@media (max-width: 768px) {
+  .sponserd-products .same .ank p {
+    font-size: 1rem;
+  }
 }
 .sponserd-products .same a {
   text-decoration: none;
@@ -480,6 +499,12 @@ body {
   border-radius: 5px;
   font-weight: bold;
   margin-right: 3rem;
+}
+@media (max-width: 768px) {
+  .sponserd-products .same .s {
+    padding: 0.3rem;
+    margin-left: 1rem;
+  }
 }
 .sponserd-products .same .s i {
   font-weight: bold;
