@@ -597,6 +597,7 @@ body {
 @media (max-width: 768px) {
   .header2 .main {
     padding-top: 1rem;
+    margin-top: 2rem;
   }
 }
 .header2 .main .menu {
@@ -623,7 +624,8 @@ body {
 }
 @media (max-width: 768px) {
   .header2 .image1 {
-    padding: 0.5rem;
+    padding: 0rem;
+    padding-left: 1rem;
   }
 }
 .header2 .image1 input {
@@ -635,6 +637,11 @@ body {
   border: none;
   background-color: rgba(128, 128, 128, 0.138);
 }
+@media (max-width: 768px) {
+  .header2 .image1 input {
+    font-size: 1rem;
+  }
+}
 .header2 .image1 i {
   border: 1px solid orange;
   padding: 1rem 0.7rem;
@@ -644,6 +651,12 @@ body {
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header2 .image1 i {
+    font-size: 1rem;
+    padding: 0.7rem 0.2rem;
+  }
 }
 
 .official-store {

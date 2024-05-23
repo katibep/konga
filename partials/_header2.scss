@@ -15,6 +15,7 @@
         padding: 1rem;
         @media(max-width:768px){
             padding-top: 1rem;
+            margin-top: 2rem;
         }
         .menu{
             display: flex;
@@ -39,7 +40,8 @@
         align-items: center;
         padding: 1rem;
         @media(max-width:768px){
-            padding: .50rem;
+            padding: 0rem;
+            padding-left: 1rem;
         }
         input{
             width: 90%;
@@ -49,6 +51,9 @@
             border-bottom-left-radius:8px ;
             border: none;
             background-color: rgba(128, 128, 128, 0.138);
+            @media(max-width:768px){
+                font-size: 1rem;
+            }
         }
         i{
             border: 1px solid orange;
@@ -59,6 +64,10 @@
             color: white;
             font-size: 1.20rem;
             cursor: pointer;
+            @media(max-width:768px){
+                font-size: 1rem;
+                padding: .7rem .2rem;
+            }
         }
     }
 }
