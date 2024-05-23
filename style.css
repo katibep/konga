@@ -587,8 +587,6 @@ body {
   .header2 {
     display: block;
     padding-right: 2rem;
-    border: 1px solid red;
-    margin-top: 3rem;
   }
 }
 .header2 .main {
@@ -599,7 +597,7 @@ body {
 }
 @media (max-width: 768px) {
   .header2 .main {
-    border: 1px solid blue;
+    margin-top: 1rem;
     padding: 0.6rem;
   }
 }
