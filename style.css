@@ -749,6 +749,7 @@ body {
   .form .btn button {
     padding: 0.2rem 4rem;
     border-radius: 5px;
+    font-size: 0.8rem;
   }
 }
 .form .orders {
