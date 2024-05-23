@@ -7,8 +7,6 @@
      @media(max-width:768px){
         display: block;
         padding-right: 2rem;
-        border: 1px solid red;
-        margin-top: 3rem;
         
      }
     .main{
@@ -17,7 +15,7 @@
         justify-content: space-between;
         padding: 1rem;
         @media(max-width:768px){
-            border: 1px solid blue;
+            margin-top: 1rem;
             padding: .6rem;
 
         }
