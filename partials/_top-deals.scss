@@ -1,0 +1,76 @@
+.top-deals{
+    .bread-crump{
+        display: flex;
+        gap: 3rem;
+        color: white;
+        background-color: $primary-color;
+        padding: 1rem;
+        margin-left: 5rem;
+        margin-right: 6rem;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 2rem;
+        font-size: 2rem;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+        }
+    }
+    .items{
+        .phones{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1rem;
+            margin-left: 5rem;
+            margin-right: 6rem;
+            margin-top: 1rem;
+            .image-cards{
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                .ac{
+                    width: 35%;
+                }
+                .samsung{
+                    .spoon{
+                        display: flex;
+                        gap: 1rem;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        .pink{
+                            border-radius: 10px;
+                            background-color: #FFD8D8;
+                            color: rgb(255,59,59);
+                        }
+                        .line{
+                            text-decoration: line-through;
+                        }
+                    }
+                    .grab{
+                        color: $green;
+                    }
+                    span{
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+        .sponserd{
+            margin-left: 4rem;
+            margin-right: 6rem;
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+            p{
+                font-size: 1.50rem;
+                font-weight: bold;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+.sponserd-products{
+    margin-left: 4rem;
+    margin-right: 6rem;
+    .images{
+        display: flex;
+        gap: 1.50rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+        span{
+            text-decoration: line-through;
+        }
+        p{
+            font-weight: bold;
+            font-size: 1.10rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .perfect{
+            width: 17%;
+            padding-top: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            p{
+                margin-left: 1rem;
+            }
+                span{
+                    text-decoration: line-through;
+                }
+                .konga{
+                  width: 50%;
+                  background-color: #ed017f32;
+                  border-radius: 5px;
+                  padding: .3rem;
+                }
+            .vaselin{
+              width: 60%;
+              margin-left: 1rem;
+             
+            }
+            .nambas{
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                .pink{
+                    border-radius: 10px;
+                    background-color: #FFD8D8;
+                    color: rgb(255,59,59);
+                }
+                .line{
+                    text-decoration: line-through;
+                }
+            }
+            .grab{
+                color: $green;
+            }
+        }
+        .perfect2{
+            width: 17%;
+             padding: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .konga{
+                width: 50%;
+                background-color: #ed017f32;
+                border-radius: 5px;
+                padding: .3rem;
+              }
+            .vaselin1{
+                width: 70%;
+                margin-left: 1rem;  
+            }
+            .chucky{
+                margin-bottom: 1rem;
+            }
+           
+        }
+        .perfect3{
+            width: 15%;
+            padding: 1rem;
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           .konga{
+            width: 50%;
+            background-color: #ed017f32;
+            border-radius: 5px;
+            padding: .3rem;
+          }
+            .vaselin2{
+                margin-left: 1rem;
+                width: 70%;  
+            }
+        }
+        overflow-x: scroll;
+    width: 100vw;
+    
+    
+    }
+    .same{
+        display: flex;
+        justify-content: space-between;
+        background-color: $pink;
+        color: black;
+        margin: 0 auto;
+        padding: .4rem;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        
+        .ank{
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+            p{
+                font-size: 1.50rem;
+                font-weight: bold;
+                margin-left: 1rem;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .s{
+            display: flex;
+            gap: .6rem;
+            align-items: center;
+            cursor: pointer;
+            color: #ED017F;
+            background-color: #FFDFD4;
+            padding: .8rem;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-right: 3rem;
+            i{
+                font-weight: bold;
+                font-size: 1.30rem;
+            }
+            
+            
+        }
+    }
+    .images2{
+        display: flex;padding: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 2rem;
+        border-radius: 20px;
+        img{
+             width: 100%;
+        }
+        .biger{
+            width: 45%;
+            .big{
+                width: 100%;
+                
+             }
+        }
+    }
+}

@@ -1,5 +1,8 @@
 .header{
     position: fixed;
+    @media(max-width:768px){
+        display: none;
+    }
     .top-header{
         padding:.6rem;
         display: flex;
