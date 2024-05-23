@@ -747,7 +747,7 @@ body {
 }
 @media (max-width: 768px) {
   .form .btn button {
-    padding: 0.4rem 4rem;
+    padding: 0.2rem 3rem;
   }
 }
 .form .orders {
@@ -794,6 +794,11 @@ body {
   padding-bottom: 4rem;
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .form .categories .arrow2 {
+    margin: 0;
+  }
 }
 .form .categories .arrow2 a {
   display: flex;
