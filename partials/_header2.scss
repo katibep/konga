@@ -53,6 +53,7 @@
             background-color: rgba(128, 128, 128, 0.138);
             @media(max-width:768px){
                 font-size: 1rem;
+                padding: .8rem;
             }
         }
         i{
@@ -66,7 +67,7 @@
             cursor: pointer;
             @media(max-width:768px){
                 font-size: 1rem;
-                padding: .8rem .2rem;
+                padding: .8rem .3rem;
             }
         }
     }
