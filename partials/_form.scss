@@ -7,15 +7,27 @@
     top: 15%;
     background-color: white;
     display: none;
+    @media(max-width:768px){
+        width: 100%;
+        padding: 1rem;
+    }
     .btn{
         display: flex;
         gap: 1rem;
+        @media(max-width:768px){
+            display: flex;
+            gap: .8rem; 
+        }
         button{
             border: 2px solid $secondary-color;
             color: $secondary-color;
             padding: .4rem 5rem;
             background-color: transparent;
             border-radius: 10px;
+            display: flex;
+          @media(max-width:768px){
+            padding:.4rem 4rem;
+          }
         }
     }
     .orders{
@@ -32,6 +44,9 @@
                 gap: .5rem;
                 color: black;
                 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                @media(max-width:768px){
+                    width: 100%;
+                }
             }
         }
     }
