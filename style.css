@@ -826,8 +826,8 @@ body {
 }
 @media (max-width: 768px) {
   .meassge {
-    padding: 1rem;
-    margin-top: 42rem;
+    padding: 0.8rem;
+    margin-top: 41rem;
   }
 }
 .meassge .out {
