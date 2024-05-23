@@ -54,6 +54,11 @@
                 text-decoration: none;
                 color: black;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                p{
+                    @media(max-width:768px){
+                        font-size: smaller;
+                    }
+                }
                 @media(max-width:768px){
                     width: 100%;
                 }
@@ -71,6 +76,12 @@
                         gap: 1rem;
                         margin-top: 1rem;
                         margin-bottom: 1rem;
+                        @media(max-width:768px){
+                            margin-bottom: .6rem;
+                            margin-top: .6rem;
+                            display: flex;
+                            gap: .6rem;
+                        }
                         .pink{
                             border-radius: 10px;
                             background-color: #FFD8D8;
@@ -103,6 +114,9 @@
                 font-weight: bold;
                 margin-left: 1rem;
                 margin-bottom: 1rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                }
 
             }
         }
