@@ -465,6 +465,13 @@ body {
   margin-top: 2rem;
 }
 @media (max-width: 768px) {
+  .sponserd-products .same {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
   .sponserd-products .same .none {
     display: none;
   }
@@ -481,12 +488,17 @@ body {
 }
 @media (max-width: 768px) {
   .sponserd-products .same .ank p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 .sponserd-products .same a {
   text-decoration: none;
   color: black;
+}
+@media (max-width: 768px) {
+  .sponserd-products .same a {
+    font-size: 0.5rem;
+  }
 }
 .sponserd-products .same .s {
   display: flex;
@@ -503,7 +515,7 @@ body {
 @media (max-width: 768px) {
   .sponserd-products .same .s {
     padding: 0.3rem;
-    margin-left: 1rem;
+    margin-right: 0rem;
   }
 }
 .sponserd-products .same .s i {
