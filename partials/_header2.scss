@@ -6,12 +6,16 @@
      display: none;
      @media(max-width:768px){
         display: block;
+        padding-right: 2rem;
      }
     .main{
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
+        @media(max-width:768px){
+            padding-top: 1rem;
+        }
         .menu{
             display: flex;
             align-items: center;
@@ -34,6 +38,9 @@
         display: flex;
         align-items: center;
         padding: 1rem;
+        @media(max-width:768px){
+            padding: .50rem;
+        }
         input{
             width: 90%;
             padding: .7rem;
