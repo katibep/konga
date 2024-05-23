@@ -747,9 +747,9 @@ body {
 }
 @media (max-width: 768px) {
   .form .btn button {
-    padding: 0.2rem 4rem;
+    padding: 0.2rem 3.2rem;
     border-radius: 5px;
-    font-size: 0.8rem;
+    margin-left: 0.8rem;
   }
 }
 .form .orders {
