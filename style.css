@@ -154,7 +154,7 @@ body {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 35vh;
+    height: 25vh;
   }
 }
 .hero .hero-section .big-image .apple {
@@ -596,7 +596,6 @@ body {
 }
 @media (max-width: 768px) {
   .header2 .main {
-    padding-top: 1rem;
     margin-top: 2rem;
   }
 }
@@ -626,6 +625,7 @@ body {
   .header2 .image1 {
     padding: 0rem;
     padding-left: 1rem;
+    padding-bottom: 1rem;
   }
 }
 .header2 .image1 input {
@@ -674,6 +674,11 @@ body {
 .official-store .store {
   background-color: orange;
 }
+@media (max-width: 768px) {
+  .official-store .store {
+    width: 100%;
+  }
+}
 .official-store .store p {
   text-align: center;
   font-size: 1.4rem;
@@ -696,7 +701,9 @@ body {
   .official-store .starlinks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 1rem;
+    width: 100%;
+    padding: 0;
+    padding-top: 1rem;
   }
 }
 .official-store .starlinks a .img {
