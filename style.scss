@@ -7,27 +7,97 @@
 @import './partials/header2';
 @import './partials/official-store';
 @import './partials/form';
-.meassge{
-    position: absolute;
-    position: fixed;
-    margin-top: 38rem;
-    margin-right: 2rem;
-    right: 0;
-    background-color: #E70680;
-    padding: 1.10rem;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+@import './partials/meassge';
+.see-all{
+    margin-left: 5rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
     @media(max-width:768px){
-        padding: .80rem;
-        margin-top: 41rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        width: 100%;
     }
-    .out{
-        color: white;
-        font-size: 2.50rem;
+    .for{
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.261);
+        padding-bottom: 1rem;
         @media(max-width:768px){
-            font-size: 1.70rem;
+           display: flex; 
+           gap: 1rem;
         }
-
+        a{
+            text-decoration: none;
+            color: #96054D;
+        }
+        p{
+            font-size: 1.50rem;
+            font-weight: bold;
+            @media(max-width:768px){
+               padding-left: 1rem; 
+                
+            }
+        }
     }
+   .lab{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    @media(max-width:768px){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .mount{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-decoration: none;
+        color: black;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        padding: 1rem;
+        @media(max-width:768px){
+            display: flex;
+            gap: .50rem;
+            padding: 1rem;
+            width: 100%;
+        }
+        .two{
+            width: 30%;
+            @media(max-width:768px){
+                width: 30%;
+            }
+        }
+        .three{
+            width: 40%;
+            @media(max-width:768px){
+                width: 40%;
+            }
+        }
+        .twice{
+            width: 40%;
+            @media(max-width:768px){
+                width: 40%;
+            }
+        }
+        .flax{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .p{
+                font-weight: bold;
+                font-size: 1.50rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }
+   }
 }
-
 
