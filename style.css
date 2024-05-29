@@ -880,6 +880,7 @@ body {
   .see-all .for {
     display: flex;
     gap: 1rem;
+    font-size: smaller;
   }
 }
 .see-all .for a {
